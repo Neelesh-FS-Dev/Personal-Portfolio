@@ -2111,9 +2111,9 @@ input::-moz-focus-inner {
   .intro-pic {
   
     display: flex;
-    top: 20%;
-    bottom: 15%;
-    right: 10%;
+    top: 25%;
+    bottom: 25%;
+    right: 5%;
   }
 
   .intro-grid {
