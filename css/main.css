@@ -2110,7 +2110,7 @@ input::-moz-focus-inner {
 
   .intro-pic {
   
-    display:none;
+    display: flex;
   }
 
   .intro-grid {
@@ -2129,7 +2129,7 @@ input::-moz-focus-inner {
   }
 
   .intro-pic {
-    display: none;
+    display: flex;
   }
 
   .intro-grid {
