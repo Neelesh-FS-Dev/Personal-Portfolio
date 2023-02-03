@@ -2113,6 +2113,7 @@ input::-moz-focus-inner {
     display: flex;
     top: 20%;
     bottom: 15%;
+    right: 10%;
   }
 
   .intro-grid {
