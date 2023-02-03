@@ -1934,8 +1934,8 @@ input::-moz-focus-inner {
   background-position: top center;
   background-image: url(../images/hero-pic.JPG);
   background-size: cover;
-  position: absolute;
-  display: flex;
+  position:absolute;
+  display:flexbox;
   top: 20%;
   right: 0;
   bottom: 0;
@@ -2109,7 +2109,8 @@ input::-moz-focus-inner {
   }
 
   .intro-pic {
-    left: 30%;
+  
+    display:none;
   }
 
   .intro-grid {
@@ -2128,7 +2129,7 @@ input::-moz-focus-inner {
   }
 
   .intro-pic {
-    left: 20%;
+    display: none;
   }
 
   .intro-grid {
@@ -2160,6 +2161,9 @@ input::-moz-focus-inner {
     font-size: 4.5rem;
   }
 
+  .intro-pic{
+    display: hidden;
+  }
 }
 
 @media screen and (max-width:350px) {
@@ -3466,30 +3470,6 @@ footer {
 footer a,
 footer a:visited {
   color: #ffffff;
-}
-
-/* ------------------------------------------------------------------- 
- * ## copyright
- * ------------------------------------------------------------------- */
-.ss-copyright {
-  margin-top: 2rem;
-  padding-right: 80px;
-}
-
-.ss-copyright span {
-  font-size: 14px;
-  display: inline-block;
-}
-
-.ss-copyright span::after {
-  content: "|";
-  display: inline-block;
-  padding: 0 1rem 0 1.2rem;
-  color: rgba(255, 255, 255, 0.1);
-}
-
-.ss-copyright span:last-child::after {
-  display: none;
 }
 
 /* ------------------------------------------------------------------- 
